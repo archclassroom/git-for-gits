@@ -49,13 +49,14 @@ Version control
 - git-commit(1)
 
   - `Use imperative present tense`__
-  - http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+  - “`A Note About Git Commit Messages`__”
 
 - git-checkout(1)
 
 .. tip:: Use ``git commit --amend`` to reword and/or change the last commit.
 
 __ https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project
+__ https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 
 Review history
 --------------
@@ -76,7 +77,9 @@ Review history
 
 - gitrevisions(7)
 
-.. tip:: http://jonas.nitro.dk/tig/
+.. tip:: `Tig: text-mode interface for Git`__
+
+__ http://jonas.nitro.dk/tig/
 
 Distribution
 ------------
@@ -92,7 +95,7 @@ Distribution
 Credits
 -------
 
-Thanks to meskarune, fsckd, alad, spider-mario, and all those who provide
+Thanks to meskarune, fsckd, alad, spider-mario, and to all those who provide
 in-class support.
 
 Future Considerations
@@ -120,15 +123,21 @@ Future Considerations
 - Workflow:
 
   - gitworkflows(7)
-  - http://nvie.com/posts/a-successful-git-branching-model/
-  - https://www.atlassian.com/git/tutorials/comparing-workflows
+  - “`A successful Git branching model`__”
+  - “`Comparing Workflows`__”
 
 __ https://github.com/mhagger/git-imerge
+__ https://nvie.com/posts/a-successful-git-branching-model/
+__ https://www.atlassian.com/git/tutorials/comparing-workflows
 
 Further reading
 ---------------
 
-- https://git-scm.com/book/
+- `Pro Git`__
 - git-tutorial{,-2}(7) (suggested by alad)
-- https://try.github.io/
-- https://jwiegley.github.io/git-from-the-bottom-up/
+- `Git Tutorial - Try Git`__
+- “`Git from the Bottom Up`__”
+
+__ https://git-scm.com/book/
+__ https://try.github.io/
+__ https://jwiegley.github.io/git-from-the-bottom-up/
