@@ -1,5 +1,5 @@
-Git for gits (by gits)
-======================
+Git for gits
+============
 
   Git is a free and open source distributed version control system designed to
   handle everything from small to very large projects with speed and efficiency.
@@ -48,14 +48,12 @@ Version control
 
 - git-commit(1)
 
-  - `Use imperative present tense`__
-  - “`A Note About Git Commit Messages`__”
+  - “`A Note About Git Commit Messages`__” (written by Tim Pope)
 
 - git-checkout(1)
 
 .. tip:: Use ``git commit --amend`` to reword and/or change the last commit.
 
-__ https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project
 __ https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 
 Review history
@@ -98,8 +96,8 @@ Credits
 Thanks to meskarune, fsckd, alad, spider-mario, and to all those who provide
 in-class support.
 
-Future Considerations
----------------------
+Future class considerations
+---------------------------
 
 - git-blame(1)
 
@@ -113,9 +111,9 @@ Future Considerations
 
 - Pull GitHub PR/s as branch/es (suggested by maerwald)
 
-- Maintaining your repos:
+- Repo maintenance:
 
-  - Add, change, delete branches, remotes, and URLs
+  - Add/Edit/Delete branches/remotes/URLs
   - git-prune(1)
   - git-gc(1)
   - git-filter-branch(1)
@@ -123,21 +121,21 @@ Future Considerations
 - Workflow:
 
   - gitworkflows(7)
-  - “`A successful Git branching model`__”
-  - “`Comparing Workflows`__”
+  - “`A successful Git branching model`__” (written by Vincent Driessen)
 
 __ https://github.com/mhagger/git-imerge
 __ https://nvie.com/posts/a-successful-git-branching-model/
-__ https://www.atlassian.com/git/tutorials/comparing-workflows
 
 Further reading
 ---------------
 
-- `Pro Git`__
+- `Pro Git`__ (written by Scott Chacon and Ben Straub)
 - git-tutorial{,-2}(7) (suggested by alad)
 - `Git Tutorial - Try Git`__
-- “`Git from the Bottom Up`__”
+- “`Git from the Bottom Up`__” (written by John Wiegley)
+- “`Knowledge is Power: Getting out of trouble by understanding Git`__” (talk by Steve Smith)
 
 __ https://git-scm.com/book/
 __ https://try.github.io/
 __ https://jwiegley.github.io/git-from-the-bottom-up/
+__ https://www.youtube.com/watch?v=sevc6668cQ0
