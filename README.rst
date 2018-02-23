@@ -42,6 +42,8 @@ Version control
 
 - git-{add,mv,rm}(1)
 
+- git-ls-files(1)
+
 - gitignore(5)
 
 .. tip:: Use ``git diff --cached`` to see staged changes.
@@ -56,14 +58,12 @@ Version control
 
 __ https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 
-Review history
+History review
 --------------
 
 - git-diff(1)
 
 - git-log(1)
-
-- git-ls-files(1)
 
 - git-reflog(1)
 
@@ -96,8 +96,8 @@ Credits
 Thanks to meskarune, fsckd, alad, spider-mario, and to all those who provide
 in-class support.
 
-Future class considerations
----------------------------
+Future material considerations
+------------------------------
 
 - git-blame(1)
 
