@@ -18,6 +18,16 @@ Where it's used by Arch Linux:
 
 .. contents:: Table of Contents
 
+ToDo
+----
+
+- Add/Improve structure and flow(, repitition & variation?)
+
+- Assess:
+
+  - gitcore-tutorial(7)
+  - https://alexwlchan.net/a-plumbers-guide-to-git/
+
 Setup
 -----
 
@@ -26,8 +36,6 @@ Setup
 - `git-config(1)`__
 
 - git-{init,clone}(1)
-
-- Clone repo, add file, push commit
 
 .. tip:: Use ``git remote -v`` to show existing remotes and their URLs.
 
@@ -86,7 +94,7 @@ Distribution
 
 - ``git pull --rebase`` while one commit ahead and behind upstream
 
-- git-format-patch(1) can be used to manually share commits with others.
+.. tip:: git-format-patch(1) can be used to manually share commits with others.
 
 - Branch, add commit, and merge into master
 
@@ -132,7 +140,7 @@ Further reading
 - `Pro Git`__ (written by Scott Chacon and Ben Straub)
 - git-tutorial{,-2}(7) (suggested by alad)
 - `Git Tutorial - Try Git`__
-- “`Git from the Bottom Up`__” (written by John Wiegley)
+- “`Git from the Bottom Up`__” (written by John Wiegley) # Assess
 - “`Knowledge is Power: Getting out of trouble by understanding Git`__” (talk by Steve Smith)
 
 __ https://git-scm.com/book/
