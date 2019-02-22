@@ -21,7 +21,7 @@ Where it's used by Arch Linux:
 ToDo
 ----
 
-- Calendly
+- Add checkboxes
 
 - Add/Improve structure and flow, repitition & variation
 
@@ -34,7 +34,7 @@ ToDo
 
 - Include Arch and AUR somehow
 
-Setup
+Intro
 -----
 
 - ``sudo pacman -Syu git``
@@ -65,6 +65,7 @@ Version control
 - git-commit(1)
 
   - “`A Note About Git Commit Messages`__” (written by Tim Pope)
+  - Commit often
 
 - git-checkout(1)
 
@@ -96,13 +97,13 @@ __ http://jonas.nitro.dk/tig/
 Distribution
 ------------
 
-- git-pull(1)
+- git-merge(1)
+
+- git-{pull,push}(1)
 
 - ``git pull --rebase`` while one commit ahead and behind upstream
 
-.. note:: git-format-patch(1) can be used to manually share commits with others.
-
-- Branch, add commit, and merge into master
+- git-format-patch(1) and git-send-email(1)
 
 Credits
 -------
@@ -143,13 +144,13 @@ __ https://nvie.com/posts/a-successful-git-branching-model/
 Further reading
 ---------------
 
-- `Pro Git`__ (written by Scott Chacon and Ben Straub)
-- git-tutorial{,-2}(7) (suggested by alad)
-- `Git Tutorial - Try Git`__
 - “`Git from the Bottom Up`__” (written by John Wiegley) # Assess
+- `Git Tutorial - Try Git`__
+- git-tutorial{,-2}(7) (suggested by alad)
 - “`Knowledge is Power: Getting out of trouble by understanding Git`__” (talk by Steve Smith)
+- `Pro Git`__ (written by Scott Chacon and Ben Straub)
 
-__ https://git-scm.com/book/
-__ https://try.github.io/
 __ https://jwiegley.github.io/git-from-the-bottom-up/
+__ https://try.github.io/
 __ https://www.youtube.com/watch?v=sevc6668cQ0
+__ https://git-scm.com/book/
