@@ -65,16 +65,21 @@ Version control
 - git-commit(1)
 
   - “`A Note About Git Commit Messages`__” (written by Tim Pope)
-  - Commit often
+  - `"Commit early and often"`__
 
 - git-checkout(1)
 
 .. note:: Use ``git commit --amend`` to reword and/or change the last commit.
 
-__ https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+- git-reset(1)
 
-History review
---------------
+- git-revert(1)
+
+__ https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+__ https://sethrobertson.github.io/GitBestPractices/#commit
+
+History
+-------
 
 - git-diff(1)
 
@@ -82,13 +87,9 @@ History review
 
 - git-reflog(1)
 
-- git-reset(1)
-
-- git-revert(1)
-
 - git-show(1)
 
-- gitrevisions(7)
+- gitrevisions(7) (eg. ``@`` and ``-``)
 
 .. note:: `Tig: text-mode interface for Git`__
 
@@ -110,36 +111,6 @@ Credits
 
 Thanks to meskarune, fsckd, alad, spider-mario, and to all those who provide
 in-class support.
-
-Future material considerations
-------------------------------
-
-- git-blame(1)
-
-- git-grep(1)
-
-- git-rebase(1)
-
-- git-tag(1)
-
-- `git-imerge`__ (suggested by spider-mario)
-
-- Pull GitHub PR/s as branch/es (suggested by maerwald)
-
-- Repo maintenance:
-
-  - Add/Edit/Delete branches/remotes/URLs
-  - git-prune(1)
-  - git-gc(1)
-  - git-filter-branch(1)
-
-- Workflow:
-
-  - gitworkflows(7)
-  - “`A successful Git branching model`__” (written by Vincent Driessen)
-
-__ https://github.com/mhagger/git-imerge
-__ https://nvie.com/posts/a-successful-git-branching-model/
 
 Further reading
 ---------------
