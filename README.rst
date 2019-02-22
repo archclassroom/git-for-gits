@@ -16,17 +16,23 @@ Where it's used by Arch Linux:
 - https://github.com/archwomen
 - https://github.com/archclassroom
 
-.. contents:: Table of Contents
+.. contents:: Table of contents
 
 ToDo
 ----
 
-- Add/Improve structure and flow(, repitition & variation?)
+- Calendly
+
+- Add/Improve structure and flow, repitition & variation
+
+  - https://mgattozzi.github.io/2016/11/08/scheme-input.html
 
 - Assess:
 
   - gitcore-tutorial(7)
   - https://alexwlchan.net/a-plumbers-guide-to-git/
+
+- Include Arch and AUR somehow
 
 Setup
 -----
@@ -37,14 +43,14 @@ Setup
 
 - git-{init,clone}(1)
 
-.. tip:: Use ``git remote -v`` to show existing remotes and their URLs.
+.. note:: Use ``git remote -v`` to show existing remotes and their URLs.
 
 __ https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup#Your-Identity
 
 Version control
 ---------------
 
-.. tip::
+.. note::
   Use ``git checkout -b <branch>`` to create and checkout a new branch for the
   feature/issue you will work on.
 
@@ -54,7 +60,7 @@ Version control
 
 - gitignore(5)
 
-.. tip:: Use ``git diff --cached`` to see staged changes.
+.. note:: Use ``git diff --cached`` to see staged changes.
 
 - git-commit(1)
 
@@ -62,7 +68,7 @@ Version control
 
 - git-checkout(1)
 
-.. tip:: Use ``git commit --amend`` to reword and/or change the last commit.
+.. note:: Use ``git commit --amend`` to reword and/or change the last commit.
 
 __ https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 
@@ -83,7 +89,7 @@ History review
 
 - gitrevisions(7)
 
-.. tip:: `Tig: text-mode interface for Git`__
+.. note:: `Tig: text-mode interface for Git`__
 
 __ http://jonas.nitro.dk/tig/
 
@@ -94,7 +100,7 @@ Distribution
 
 - ``git pull --rebase`` while one commit ahead and behind upstream
 
-.. tip:: git-format-patch(1) can be used to manually share commits with others.
+.. note:: git-format-patch(1) can be used to manually share commits with others.
 
 - Branch, add commit, and merge into master
 
