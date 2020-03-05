@@ -51,7 +51,7 @@ Version control
   - “`A Note About Git Commit Messages`__” (written by Tim Pope)
   - `"Commit early and often"`__
 
-- git-checkout(1)
+- git-{checkout,restore,switch}(1)
 
 .. note:: Use ``git commit --amend`` to reword and/or change the last commit.
 
@@ -86,6 +86,8 @@ Distribution
 
 - git-{pull,push}(1)
 
+  - https://darkport.co.uk/blog/ahh-shhgit!/
+
 - ``git pull --rebase`` while one commit ahead and behind upstream
 
 - git-format-patch(1) and git-send-email(1)
@@ -93,8 +95,8 @@ Distribution
 Credits
 -------
 
-Thanks to meskarune, fsckd, alad, spider-mario, and to all those who provide
-in-class support.
+Thanks to meskarune, fsckd, alad, spider-mario, Will Smith and to all those who
+provide in-class support.
 
 Further reading
 ---------------

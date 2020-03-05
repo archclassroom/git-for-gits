@@ -14,3 +14,7 @@ ToDo
 
 - Include Arch and AUR somehow
 
+- https://learngitbranching.js.org/
+
+- https://trunkbaseddevelopment.com/
+- https://www.branchbyabstraction.com/
