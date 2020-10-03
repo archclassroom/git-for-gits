@@ -18,3 +18,9 @@ ToDo
 
 - https://trunkbaseddevelopment.com/
 - https://www.branchbyabstraction.com/
+
+- https://www.smashingmagazine.com/make-life-easier-when-using-git/
+
+- https://sethrobertson.github.io/GitBestPractices/
+- https://eidson.info/post/using-conventional-commit-messages-globally
+- https://seesparkbox.com/foundry/atomic_commits_with_git
